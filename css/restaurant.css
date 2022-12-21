@@ -145,16 +145,6 @@ p {
   text-shadow: 2px 2px 4px rgb(6, 52, 11);
   font-family: cursive;
 }
-iframe {
-  display: block;
-  margin: auto;
-  width: 1450px;
-  height: 700px;
-  background-color: rgb(6, 52, 11);
-  background: #0a4f0ab1;
-  border: 3px solid #ffd700;
-  border-radius: 8px;
-}
 .content {
   width: 35%;
   float: left;
@@ -184,28 +174,114 @@ iframe {
 .inner-footer {
   height: 200px;
 }
-h2 {
-  text-align: center;
-  margin: 30px 0 30px;
-  font-size: 2em;
-  color: #ffd700;
-  text-shadow: 2px 2px 4px rgb(6, 52, 11);
-  font-family: cursive;
+
+.col-main {
+  width: 50%;
+  float: left;
+  padding: 20px 2.5%;
 }
-p {
+
+.col-sidebar {
+   width: 50%;
+   float: right;
+   padding: 20px 2.5%;
+}
+h2 {
   text-align: center;
   margin: 30px 0 30px;
   font-size: 20px;
   color: #ffd700;
   text-shadow: 2px 2px 4px rgb(6, 52, 11);
+  font-family: cursive;
 }
-h3 {
-  text-align: center;
-  margin: 30px 0 30px;
-  font-size: 12px;
-  color: #ffd700;
-  text-shadow: 2px 2px 4px rgb(6, 52, 11);
+#main-block {
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  display: block;
+  margin: auto;
+  width: 1250px;
+  height: 750px;
+  border: 3px solid #ffd700;
+  border-radius: 8px;
+  background-image: url("/photo-1.jpg");
+  background-size: cover;
 }
-button {
-  color: red;
+#main-block1 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/FOX02822_.jpg);
+  background-size: cover;
+}
+#left-button {
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #afaf23;
+	border-bottom: 25px solid transparent;
+  display: inline-block;
+  margin: 10px;
+}
+#right-button {
+  width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #afaf23;
+	border-bottom: 25px solid transparent;
+  float: right;
+  margin: 10px;
+}
+#main-block2 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/FOX02752.jpg);
+  background-size: cover;
+}
+#main-block3 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/FOX03011.jpg);
+  background-size: cover;
+}
+#main-block4 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/FOX03044.jpg);
+  background-size: cover;
+}
+#main-block5 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/FOX03080.jpg);
+  background-size: cover;
+}
+#main-block6 {
+  border: 5px solid #afaf23;
+  border-radius: 15 px rgb(6, 52, 11);
+  width: 80%;
+  margin-left: 20%;
+  height: 60vh;
+  margin-top: 20vh;
+  background-image: url(https://mayak.rest/wp-content/uploads/1.jpg);
+  background-size: cover;
 }
